@@ -1,0 +1,37 @@
+.explore-section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    margin-top: 50px;
+}
+
+.explore-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.feature-item {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 767px) {
+    .feature-item {
+        flex-basis: 100%;
+    }
+}
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}

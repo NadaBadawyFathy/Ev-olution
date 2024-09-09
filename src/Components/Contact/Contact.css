@@ -1,0 +1,77 @@
+.contact {
+    padding-bottom: 50px;
+}
+.contact h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 45px;
+}
+.contact .content {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .contact .content {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+.contact .contact-col {
+    flex-basis: 48%;
+    color: #676767;
+}
+.contact .contact-col h3 {
+    color: #000f38;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact .contact-col h3 img {
+    width: 35px;
+    margin-left: 10px;
+}
+.contact .contact-col p {
+    max-width: 450px;
+}
+.contact .contact-col ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contact .contact-col ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact .contact-col ul li img {
+    width: 25px;
+    margin-right: 10px;
+}
+.contact .contact-col form input, form textarea {
+    display: block;
+    width: 100%;
+    background-color: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.contact .contact-col form button {
+    background-color: #212ea0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 17px;
+    color: white;
+}
+.contact .container .btn i {
+    margin-left: 7px;
+}
+.contact .contact-col form span {
+    display: block;
+    margin: 20px 0;
+    color: #61b752;
+}

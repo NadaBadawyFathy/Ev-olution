@@ -1,0 +1,67 @@
+.about-us {
+    margin: 80px 0;
+}
+.about-us .container {
+    width: 95%;
+    padding: 0;
+}
+.about-us .about {
+    display: flex;
+    gap: 30px;
+}
+@media (max-width: 992px) {
+    .about-us .about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.about-us .about .image {
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+    border-right: 1px solid rgb(61, 96, 126);
+}
+@media (max-width: 992px) {
+    .about-us .about .image {
+        border: 0;
+        margin: 0 auto;
+    }
+}
+.about-us .about .choose {
+    flex: 1;
+}
+.about-us .about img {
+    max-width: 100%;
+}
+.about-us .about .choose h2 span{
+    color: var(--main-color);
+    font-family: 'Playpen Sans', cursive;
+}
+.about-us .about .choose h4 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 35px;
+}
+.about-us .about .choose p {
+    font-size: 12px;
+    line-height: 2;
+    color: #333;
+}
+.about-us button {
+    display: block;
+    margin: 30px auto 0;
+    background-color: orangered;
+    box-shadow: 0px 1px 8px 1px orangered;
+    border: 1px solid orangered;
+    color: white;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 2px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.about-us button:hover {
+    background-color: rgb(61, 96, 126);
+    box-shadow: 1px 1px 8px 1px rgb(61, 96, 126);
+}

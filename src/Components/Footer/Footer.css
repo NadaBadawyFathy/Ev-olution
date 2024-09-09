@@ -1,0 +1,24 @@
+.footer .container {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #797979;
+    padding: 25px 0;
+}
+@media (max-width: 767px) {
+    .footer .container {
+        flex-direction: column;
+    }
+}
+.footer .container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .container ul li {
+    display: inline-block;
+}
+.footer .container ul li:last-of-type {
+    margin-left: 20px;
+}
